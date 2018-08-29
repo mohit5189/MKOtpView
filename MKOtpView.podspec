@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKOtpView'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'MKOtpView is a library to display UIView in app for filling the OTP. Library support secure text entry and you can fully customised your view.'
 
 # This description is used to generate tags and improve search results.

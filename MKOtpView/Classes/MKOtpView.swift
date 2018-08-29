@@ -15,7 +15,7 @@ public class MKOtpView: UIView, UITextFieldDelegate {
     private var numberOfDigits : Int!
     private var peddingVertical : CGFloat!
     private var peddingHorizontal : CGFloat!
-    var onFillDigits = {(number:Int) -> () in}
+    public var onFillDigits = {(number:Int) -> () in}
     var cornerRadius:CGFloat!
     var borderColor:UIColor!
     var borderWidth:CGFloat!

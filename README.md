@@ -29,17 +29,17 @@ otpView = MKOtpView(frame: CGRect(x: 10, y: 100, width: 350, height: 50))
 2. Now you can set different properties as given below:
 
 ```
+otpView = MKOtpView(frame: CGRect(x: 10, y: 100, width: 350, height: 50))
 otpView.setVerticalPedding(pedding: 5)
 otpView.setHorizontalPedding(pedding: 5)
 otpView.setNumberOfDigits(numberOfDigits: 6)
-otpView.borderWidth = 0.2
-otpView.borderColor = UIColor.green
-otpView.cornerRadius = 2
-otpView.inputBackgroundColor = UIColor.white
+otpView.setBorderWidth(borderWidth: 2.0)
+otpView.setBorderColor(borderColor: UIColor.green)
+otpView.setCornerRadius(radius: 2)
+otpView.setInputBackgroundColor(inputBackgroundColor: UIColor.white)
 otpView.backgroundColor = UIColor.lightGray
 otpView.enableSecureEntries()
 self.view.addSubview(otpView)
-
 ```
 3. Set closure to get the response as soon as all otp fields are filled, Here you can write your own logic to use the number filled.
 
