@@ -1,15 +1,14 @@
 # MKOtpView
 
-[![CI Status](https://img.shields.io/travis/mohit5189/MKOtpView.svg?style=flat)](https://travis-ci.org/mohit5189/MKOtpView)
-[![Version](https://img.shields.io/cocoapods/v/MKOtpView.svg?style=flat)](https://cocoapods.org/pods/MKOtpView)
-[![License](https://img.shields.io/cocoapods/l/MKOtpView.svg?style=flat)](https://cocoapods.org/pods/MKOtpView)
-[![Platform](https://img.shields.io/cocoapods/p/MKOtpView.svg?style=flat)](https://cocoapods.org/pods/MKOtpView)
+[![CI Status](https://i.imgur.com/wM3sUrW.png)](https://travis-ci.org/mohit5189/MKOtpView)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 8.0 or greater.
 
 ## Installation
 
@@ -20,9 +19,45 @@ it, simply add the following line to your Podfile:
 pod 'MKOtpView'
 ```
 
+## Implementation steps
+
+1. Create MKOtpView Object by passing frame:
+```
+var otpView:MKOtpView!
+otpView = MKOtpView(frame: CGRect(x: 10, y: 100, width: 350, height: 50))
+```
+2. Now you can set different properties as given below:
+
+```
+otpView.setVerticalPedding(pedding: 5)
+otpView.setHorizontalPedding(pedding: 5)
+otpView.setNumberOfDigits(numberOfDigits: 6)
+otpView.borderWidth = 0.2
+otpView.borderColor = UIColor.green
+otpView.cornerRadius = 2
+otpView.inputBackgroundColor = UIColor.white
+otpView.backgroundColor = UIColor.lightGray
+otpView.enableSecureEntries()
+self.view.addSubview(otpView)
+
+```
+3. Set closure to get the response as soon as all otp fields are filled, Here you can write your own logic to use the number filled.
+
+```
+otpView.onFillDigits = { number in
+print("input number is \(number)")
+}
+
+```
+4. Finally call render method once everything is set.
+
+```
+otpView.render()
+```
+
 ## Author
 
-mohit5189, mohit.kumar@timesinternet.in
+Mohit Kumar
 
 ## License
 

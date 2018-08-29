@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0C0E8D118D620A47A4EDA4E9 /* Pods-MKOtpView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKOtpView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKOtpView_Example/Pods-MKOtpView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		391F25B05F6AE8E630658732 /* Pods-MKOtpView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKOtpView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKOtpView_Example/Pods-MKOtpView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3ACA2B9735E3ECDEDFD98350 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4BB6631DAA2A4904F54FC62A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3ACA2B9735E3ECDEDFD98350 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4BB6631DAA2A4904F54FC62A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MKOtpView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKOtpView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B705691CE3074CE1DFA5C4B /* Pods_MKOtpView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKOtpView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DEC6FBEAF3B67CD9CE740A /* Pods-MKOtpView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKOtpView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKOtpView_Tests/Pods-MKOtpView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAEE766F7CFE7D8700B4AE53 /* MKOtpView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MKOtpView.podspec; path = ../MKOtpView.podspec; sourceTree = "<group>"; };
+		AAEE766F7CFE7D8700B4AE53 /* MKOtpView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MKOtpView.podspec; path = ../MKOtpView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF93A42DE3AC27317AB51CF3 /* Pods-MKOtpView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKOtpView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKOtpView_Tests/Pods-MKOtpView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE12E5E2D85B68E28B35666E /* Pods_MKOtpView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKOtpView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
