@@ -1,5 +1,5 @@
 PODS:
-  - MKOtpView (0.1.0)
+  - MKOtpView (0.1.1)
 
 DEPENDENCIES:
   - MKOtpView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MKOtpView: ac3e8f1c0a84515d9e57de79a6a24dd9264a3b84
+  MKOtpView: 01ffc49f51fbeabb92c14b942e383b9a1138f4a0
 
 PODFILE CHECKSUM: 3e729ee9ea66955131a7a29611a0428936eb2e15
 

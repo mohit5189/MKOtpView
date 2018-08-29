@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		06D0269C5F629AA4F731A4A39C058EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		0F4EDC493A7EBCE95CD54F34F85AD898 /* Pods-MKOtpView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D2EA26E591D1EDF71E25371F371ACF /* Pods-MKOtpView_Tests-dummy.m */; };
+		3663550B59B65C27EF46ABEE0BE177C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		53C1BC0874DE2501FB036E4823283BE2 /* Pods-MKOtpView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E990FDB54852247E39A92C74606AB3 /* Pods-MKOtpView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6332C89903723F0C8B7C94F7458619EF /* Pods-MKOtpView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D62843263913CDF7274E4EFF46729 /* Pods-MKOtpView_Example-dummy.m */; };
 		807CA0F899E1211E7609B3E865244318 /* Pods-MKOtpView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF7BAF61CA730BC7893E75D6D6DA47F /* Pods-MKOtpView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CE2EFEEA214D03025CA000478E1DE96 /* MKOtpView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF2FF265CDE3A60E2898C5B658A0009 /* MKOtpView-dummy.m */; };
+		8195E1283E9095DAB9FDC391E3721147 /* MKOtpView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 477458C6E6FF1E58C836667F46659E79 /* MKOtpView-dummy.m */; };
+		8E8500E552862C8FEA940D76272DBAE8 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9472218D498B8EBA2678E87100890C36 /* MKTextField.swift */; };
 		92DDF66A6DAFF52C3668D7D51DD65C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A684ADA423ABF92A476B98B175709149 /* MKOtpView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DC269C97D67C18F50AC590D7C8BE33 /* MKOtpView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0E736062136634600478B0E /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E736042136634500478B0E /* MKTextField.swift */; };
-		B0E736072136634600478B0E /* MKOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E736052136634600478B0E /* MKOtpView.swift */; };
-		D1FF5830CEDD2A05CC18A1F0E6686E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DD1C115F7184F8C85F1158C52E8A9BDD /* MKOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02186E9C97C6F5E75C30A550381B9320 /* MKOtpView.swift */; };
+		F7EBB202E770DE7FF15DB13BEFC631CD /* MKOtpView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FC56F0B1D0EDB09E622120EAF2D6B5 /* MKOtpView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,48 +32,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D764FCC4EA390CBDC31A354FC7E2C2E;
+			remoteGlobalIDString = 789BCE4EAE04535F08944251E40EC527;
 			remoteInfo = MKOtpView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02186E9C97C6F5E75C30A550381B9320 /* MKOtpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKOtpView.swift; path = MKOtpView/Classes/MKOtpView.swift; sourceTree = "<group>"; };
 		02DE2B938404106573637440AE8BDE10 /* Pods-MKOtpView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKOtpView_Tests-resources.sh"; sourceTree = "<group>"; };
+		09DFF73FB12DF5665DE216B18E426EDF /* MKOtpView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKOtpView.modulemap; sourceTree = "<group>"; };
 		11D47F70682616F71BB3727883BF9A17 /* Pods-MKOtpView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKOtpView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17BC420B5F21792D53260D15884A4E93 /* Pods-MKOtpView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKOtpView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		32CFCF5120C067D7D5D7B8F0B37506E2 /* MKOtpView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKOtpView.xcconfig; sourceTree = "<group>"; };
+		3C322B8F6FACD083DE2514C85721B774 /* MKOtpView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKOtpView-prefix.pch"; sourceTree = "<group>"; };
+		477458C6E6FF1E58C836667F46659E79 /* MKOtpView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKOtpView-dummy.m"; sourceTree = "<group>"; };
 		48E990FDB54852247E39A92C74606AB3 /* Pods-MKOtpView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKOtpView_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F0626D8F045A4C288710706516466EF /* Pods-MKOtpView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKOtpView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5502D6F4029D173268095F76B325E2E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5ECD066D0CB73E6585BA8FC6BF4DA74E /* MKOtpView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKOtpView-prefix.pch"; sourceTree = "<group>"; };
-		6406F5189654D4D448AAD2D622427D9E /* MKOtpView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MKOtpView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		67EB207FDE0E2517247382E90D2EA066 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F7827D31CEE5ED8B40D92AC7E5EFAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6805B1183FC041EC354B2962461C0E5C /* Pods-MKOtpView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKOtpView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BA77B0B4D5C4F7DB48F39A98123D3D5 /* Pods-MKOtpView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKOtpView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7CF2FF265CDE3A60E2898C5B658A0009 /* MKOtpView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKOtpView-dummy.m"; sourceTree = "<group>"; };
-		832275B958F3F55D585E4E686ACC499A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8469CFFC87DDDBA8BBCA3D6DAA0290F1 /* Pods-MKOtpView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MKOtpView_Example.modulemap"; sourceTree = "<group>"; };
-		87FE1506953F94D1A250CC1178BA375E /* MKOtpView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKOtpView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94EF8493F626D15D5B34D614E9228132 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		87FE1506953F94D1A250CC1178BA375E /* MKOtpView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKOtpView.framework; path = MKOtpView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9472218D498B8EBA2678E87100890C36 /* MKTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = MKOtpView/Classes/MKTextField.swift; sourceTree = "<group>"; };
 		A10D62843263913CDF7274E4EFF46729 /* Pods-MKOtpView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKOtpView_Example-dummy.m"; sourceTree = "<group>"; };
-		B0E736042136634500478B0E /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = MKOtpView/Classes/MKTextField.swift; sourceTree = "<group>"; };
-		B0E736052136634600478B0E /* MKOtpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKOtpView.swift; path = MKOtpView/Classes/MKOtpView.swift; sourceTree = "<group>"; };
-		B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKOtpView.xcconfig; sourceTree = "<group>"; };
+		A7FC56F0B1D0EDB09E622120EAF2D6B5 /* MKOtpView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKOtpView-umbrella.h"; sourceTree = "<group>"; };
 		B3EBA8FD852F7F59A54D58C158CE38CC /* Pods-MKOtpView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKOtpView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B55F8E1534F489A6B6DCC7945DAAAE14 /* Pods-MKOtpView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKOtpView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B808ED2E7E29187EB771B7348331DD46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C14743803592C49EF55C69FC09E46121 /* Pods-MKOtpView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKOtpView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C359227E6959AF7A43FE1C0EA21B5E5D /* Pods-MKOtpView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MKOtpView_Tests.modulemap"; sourceTree = "<group>"; };
 		CDBB2B9DF792DF5BF9F995781350354F /* Pods-MKOtpView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKOtpView_Example-resources.sh"; sourceTree = "<group>"; };
 		CEF7BAF61CA730BC7893E75D6D6DA47F /* Pods-MKOtpView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKOtpView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D7044BE3A4263AA0AA49BC1B2FCA2D7A /* Pods_MKOtpView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKOtpView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50C4803F61E3636BBE3DD93CA7B7822 /* MKOtpView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MKOtpView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7044BE3A4263AA0AA49BC1B2FCA2D7A /* Pods_MKOtpView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MKOtpView_Tests.framework; path = "Pods-MKOtpView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7423DCE8AC9FF588F4E156EE21C3B43 /* Pods-MKOtpView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKOtpView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D76AD4DD7F1F3F8A74D6E4B1AA055E35 /* Pods_MKOtpView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKOtpView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76AD4DD7F1F3F8A74D6E4B1AA055E35 /* Pods_MKOtpView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MKOtpView_Example.framework; path = "Pods-MKOtpView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AD561BFE4F61299F55AA4EA45068A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D2EA26E591D1EDF71E25371F371ACF /* Pods-MKOtpView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKOtpView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E7DC269C97D67C18F50AC590D7C8BE33 /* MKOtpView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKOtpView-umbrella.h"; sourceTree = "<group>"; };
-		EBBECAB7DF2CE64519B9A25DB43D34E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D3C857D67C13EBD92D1FC38EC22C89 /* Pods-MKOtpView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKOtpView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD16EC7DA07B9A4D56169A1089B88AEB /* MKOtpView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKOtpView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC4983A31ADA8834EBF81ABEE4DEDF6F /* Frameworks */ = {
+		834A096AD1E730AD4133C4953E9F6BD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FF5830CEDD2A05CC18A1F0E6686E66 /* Foundation.framework in Frameworks */,
+				3663550B59B65C27EF46ABEE0BE177C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,16 +114,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35C13513BC5DF5831685E1A4F47ACCB4 /* MKOtpView */ = {
+		3DDD485FF25C6C5FB2EBCC174A941FAB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0E736052136634600478B0E /* MKOtpView.swift */,
-				B0E736042136634500478B0E /* MKTextField.swift */,
-				6FB688F89271AF4C1E7A905F7FE8BB87 /* Pod */,
-				C46BE2CFB0B1E4EE5B883D739BB90652 /* Support Files */,
+				C93A31654384235F3E58407FF3CB4FC2 /* MKOtpView */,
 			);
-			name = MKOtpView;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		48295878F211A365D084FB554AD96CD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9AD561BFE4F61299F55AA4EA45068A8 /* Info.plist */,
+				09DFF73FB12DF5665DE216B18E426EDF /* MKOtpView.modulemap */,
+				32CFCF5120C067D7D5D7B8F0B37506E2 /* MKOtpView.xcconfig */,
+				477458C6E6FF1E58C836667F46659E79 /* MKOtpView-dummy.m */,
+				3C322B8F6FACD083DE2514C85721B774 /* MKOtpView-prefix.pch */,
+				A7FC56F0B1D0EDB09E622120EAF2D6B5 /* MKOtpView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKOtpView";
+			sourceTree = "<group>";
+		};
+		4873C64497769B82D1A0375105122EED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B808ED2E7E29187EB771B7348331DD46 /* LICENSE */,
+				D50C4803F61E3636BBE3DD93CA7B7822 /* MKOtpView.podspec */,
+				67F7827D31CEE5ED8B40D92AC7E5EFAC /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5B30D619E7A21D19E67FC5851A20A6A9 /* Targets Support Files */ = {
@@ -141,16 +161,6 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6FB688F89271AF4C1E7A905F7FE8BB87 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				832275B958F3F55D585E4E686ACC499A /* LICENSE */,
-				6406F5189654D4D448AAD2D622427D9E /* MKOtpView.podspec */,
-				94EF8493F626D15D5B34D614E9228132 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		728D75EFBFDA69A2F44E84AA03A75A40 /* Pods-MKOtpView_Example */ = {
@@ -175,19 +185,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B6E125CEB9D52AD794CED24F410EB725 /* Development Pods */,
+				3DDD485FF25C6C5FB2EBCC174A941FAB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				347D3834D2AFA65A2E779B7D01FF4B61 /* Products */,
 				5B30D619E7A21D19E67FC5851A20A6A9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B6E125CEB9D52AD794CED24F410EB725 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				35C13513BC5DF5831685E1A4F47ACCB4 /* MKOtpView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -216,18 +218,16 @@
 			path = "Target Support Files/Pods-MKOtpView_Tests";
 			sourceTree = "<group>";
 		};
-		C46BE2CFB0B1E4EE5B883D739BB90652 /* Support Files */ = {
+		C93A31654384235F3E58407FF3CB4FC2 /* MKOtpView */ = {
 			isa = PBXGroup;
 			children = (
-				EBBECAB7DF2CE64519B9A25DB43D34E2 /* Info.plist */,
-				FD16EC7DA07B9A4D56169A1089B88AEB /* MKOtpView.modulemap */,
-				B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */,
-				7CF2FF265CDE3A60E2898C5B658A0009 /* MKOtpView-dummy.m */,
-				5ECD066D0CB73E6585BA8FC6BF4DA74E /* MKOtpView-prefix.pch */,
-				E7DC269C97D67C18F50AC590D7C8BE33 /* MKOtpView-umbrella.h */,
+				02186E9C97C6F5E75C30A550381B9320 /* MKOtpView.swift */,
+				9472218D498B8EBA2678E87100890C36 /* MKTextField.swift */,
+				4873C64497769B82D1A0375105122EED /* Pod */,
+				48295878F211A365D084FB554AD96CD2 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MKOtpView";
+			name = MKOtpView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +241,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1E43F73CBC71C825C1F02A129D6A09D /* Headers */ = {
+		85D32CDC2B1BFA7424D1EC0A4C034753 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A684ADA423ABF92A476B98B175709149 /* MKOtpView-umbrella.h in Headers */,
+				F7EBB202E770DE7FF15DB13BEFC631CD /* MKOtpView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,23 +260,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D764FCC4EA390CBDC31A354FC7E2C2E /* MKOtpView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 394FDAC78409E9772F46ADC0A09B93FD /* Build configuration list for PBXNativeTarget "MKOtpView" */;
-			buildPhases = (
-				FD4E76E59E7ADD44D762C30558AD6FE0 /* Sources */,
-				BC4983A31ADA8834EBF81ABEE4DEDF6F /* Frameworks */,
-				D1E43F73CBC71C825C1F02A129D6A09D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MKOtpView;
-			productName = MKOtpView;
-			productReference = 87FE1506953F94D1A250CC1178BA375E /* MKOtpView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5F14D41B0F3422B0CAB412B87F23B336 /* Pods-MKOtpView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E755ED21FC82DA4CCF3AC984A068E9FF /* Build configuration list for PBXNativeTarget "Pods-MKOtpView_Example" */;
@@ -293,6 +276,23 @@
 			name = "Pods-MKOtpView_Example";
 			productName = "Pods-MKOtpView_Example";
 			productReference = D76AD4DD7F1F3F8A74D6E4B1AA055E35 /* Pods_MKOtpView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		789BCE4EAE04535F08944251E40EC527 /* MKOtpView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59680F20B47B90FB5F0D35ED94C52E1 /* Build configuration list for PBXNativeTarget "MKOtpView" */;
+			buildPhases = (
+				071B65340985EDAE5FA277CDD3D9276B /* Sources */,
+				834A096AD1E730AD4133C4953E9F6BD8 /* Frameworks */,
+				85D32CDC2B1BFA7424D1EC0A4C034753 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKOtpView;
+			productName = MKOtpView;
+			productReference = 87FE1506953F94D1A250CC1178BA375E /* MKOtpView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9A453D5FCF2B03F42D8086F9C35C394 /* Pods-MKOtpView_Tests */ = {
@@ -321,11 +321,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					2D764FCC4EA390CBDC31A354FC7E2C2E = {
-						LastSwiftMigration = 0940;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D764FCC4EA390CBDC31A354FC7E2C2E /* MKOtpView */,
+				789BCE4EAE04535F08944251E40EC527 /* MKOtpView */,
 				5F14D41B0F3422B0CAB412B87F23B336 /* Pods-MKOtpView_Example */,
 				D9A453D5FCF2B03F42D8086F9C35C394 /* Pods-MKOtpView_Tests */,
 			);
@@ -347,6 +342,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		071B65340985EDAE5FA277CDD3D9276B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8195E1283E9095DAB9FDC391E3721147 /* MKOtpView-dummy.m in Sources */,
+				DD1C115F7184F8C85F1158C52E8A9BDD /* MKOtpView.swift in Sources */,
+				8E8500E552862C8FEA940D76272DBAE8 /* MKTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		094E76AC6258A6E154CFA5CA92C03B7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,16 +368,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD4E76E59E7ADD44D762C30558AD6FE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CE2EFEEA214D03025CA000478E1DE96 /* MKOtpView-dummy.m in Sources */,
-				B0E736062136634600478B0E /* MKTextField.swift in Sources */,
-				B0E736072136634600478B0E /* MKOtpView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -385,7 +380,7 @@
 		8B9AB3F746F5B755C2AE7D41762813F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MKOtpView;
-			target = 2D764FCC4EA390CBDC31A354FC7E2C2E /* MKOtpView */;
+			target = 789BCE4EAE04535F08944251E40EC527 /* MKOtpView */;
 			targetProxy = D5086E3ED76E00FC2E9528A2B8BA50B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -494,6 +489,39 @@
 			};
 			name = Debug;
 		};
+		43123845EE5A6120DC9E3FD1C1881FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CFCF5120C067D7D5D7B8F0B37506E2 /* MKOtpView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKOtpView/MKOtpView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKOtpView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKOtpView/MKOtpView.modulemap";
+				PRODUCT_MODULE_NAME = MKOtpView;
+				PRODUCT_NAME = MKOtpView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		434C114A419D698906FF772B729455AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B55F8E1534F489A6B6DCC7945DAAAE14 /* Pods-MKOtpView_Tests.release.xcconfig */;
@@ -591,11 +619,10 @@
 			};
 			name = Debug;
 		};
-		B1AA7279FBF8D6376D68609F79B211F9 /* Debug */ = {
+		8D35CC0E62473B09C391F617534E0BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */;
+			baseConfigurationReference = 32CFCF5120C067D7D5D7B8F0B37506E2 /* MKOtpView.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -682,40 +709,6 @@
 			};
 			name = Release;
 		};
-		E1C212827609367BB1E4A375F354D032 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MKOtpView/MKOtpView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MKOtpView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MKOtpView/MKOtpView.modulemap";
-				PRODUCT_MODULE_NAME = MKOtpView;
-				PRODUCT_NAME = MKOtpView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -728,20 +721,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		394FDAC78409E9772F46ADC0A09B93FD /* Build configuration list for PBXNativeTarget "MKOtpView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1AA7279FBF8D6376D68609F79B211F9 /* Debug */,
-				E1C212827609367BB1E4A375F354D032 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9C567B1692231A4CB61FC07A17E9090D /* Build configuration list for PBXNativeTarget "Pods-MKOtpView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30A5B7751ED6B25DE1ED29701D3B9BCE /* Debug */,
 				434C114A419D698906FF772B729455AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59680F20B47B90FB5F0D35ED94C52E1 /* Build configuration list for PBXNativeTarget "MKOtpView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D35CC0E62473B09C391F617534E0BF5 /* Debug */,
+				43123845EE5A6120DC9E3FD1C1881FE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

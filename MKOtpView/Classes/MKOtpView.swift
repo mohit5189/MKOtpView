@@ -10,7 +10,7 @@ import UIKit
 
 
 
-class MKOtpView: UIView, UITextFieldDelegate {
+public class MKOtpView: UIView, UITextFieldDelegate {
 
     private var numberOfDigits : Int!
     private var peddingVertical : CGFloat!
@@ -24,14 +24,14 @@ class MKOtpView: UIView, UITextFieldDelegate {
     var allowOnlyNumber:Bool!
     var font:UIFont!
 
-    override init(frame: CGRect) {
+    override public  init(frame: CGRect) {
        
         super.init(frame: frame)
         setDefaultValues()
 
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
 
         super.init(coder: aDecoder)
         setDefaultValues()
@@ -50,39 +50,39 @@ class MKOtpView: UIView, UITextFieldDelegate {
         font = UIFont.systemFont(ofSize: 15)
     }
     
-    func setNumberOfDigits(numberOfDigits:Int) {
+    public func setNumberOfDigits(numberOfDigits:Int) {
         self.numberOfDigits = numberOfDigits
     }
     
-    func setVerticalPedding(pedding:CGFloat)  {
+    public func setVerticalPedding(pedding:CGFloat)  {
         self.peddingVertical = pedding
     }
     
-    func setHorizontalPedding(pedding:CGFloat) {
+    public func setHorizontalPedding(pedding:CGFloat) {
         self.peddingHorizontal = pedding
     }
     
-    func enableSecureEntries() {
+    public func enableSecureEntries() {
         self.isSecure = true;
     }
     
-    func setCornerRadius(radius:CGFloat) {
+    public func setCornerRadius(radius:CGFloat) {
         self.cornerRadius = radius
     }
     
-    func setBorderColor(borderColor:UIColor) {
+    public func setBorderColor(borderColor:UIColor) {
         self.borderColor = borderColor
     }
     
-    func setBorderWidth(borderWidth:CGFloat) {
+    public func setBorderWidth(borderWidth:CGFloat) {
         self.borderWidth = borderWidth
     }
     
-    func setInputBackgroundColor(inputBackgroundColor:UIColor)  {
+    public func setInputBackgroundColor(inputBackgroundColor:UIColor)  {
         self.inputBackgroundColor = inputBackgroundColor
     }
     
-    func render(){
+    public func render(){
     
         var xCoord:CGFloat = peddingHorizontal
         
@@ -130,7 +130,7 @@ class MKOtpView: UIView, UITextFieldDelegate {
     
     
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         
         if (textField.text?.count)!==1  && string.count>0 {
