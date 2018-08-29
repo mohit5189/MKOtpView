@@ -15,8 +15,8 @@
 		8CE2EFEEA214D03025CA000478E1DE96 /* MKOtpView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF2FF265CDE3A60E2898C5B658A0009 /* MKOtpView-dummy.m */; };
 		92DDF66A6DAFF52C3668D7D51DD65C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A684ADA423ABF92A476B98B175709149 /* MKOtpView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DC269C97D67C18F50AC590D7C8BE33 /* MKOtpView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0E7360221365CF000478B0E /* MKOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7360021365CF000478B0E /* MKOtpView.swift */; };
-		B0E7360321365CF000478B0E /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7360121365CF000478B0E /* MKTextField.swift */; };
+		B0E736062136634600478B0E /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E736042136634500478B0E /* MKTextField.swift */; };
+		B0E736072136634600478B0E /* MKOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E736052136634600478B0E /* MKOtpView.swift */; };
 		D1FF5830CEDD2A05CC18A1F0E6686E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +57,8 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94EF8493F626D15D5B34D614E9228132 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A10D62843263913CDF7274E4EFF46729 /* Pods-MKOtpView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKOtpView_Example-dummy.m"; sourceTree = "<group>"; };
-		B0E7360021365CF000478B0E /* MKOtpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKOtpView.swift; sourceTree = "<group>"; };
-		B0E7360121365CF000478B0E /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
+		B0E736042136634500478B0E /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = MKOtpView/Classes/MKTextField.swift; sourceTree = "<group>"; };
+		B0E736052136634600478B0E /* MKOtpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKOtpView.swift; path = MKOtpView/Classes/MKOtpView.swift; sourceTree = "<group>"; };
 		B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKOtpView.xcconfig; sourceTree = "<group>"; };
 		B3EBA8FD852F7F59A54D58C158CE38CC /* Pods-MKOtpView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKOtpView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B55F8E1534F489A6B6DCC7945DAAAE14 /* Pods-MKOtpView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKOtpView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		35C13513BC5DF5831685E1A4F47ACCB4 /* MKOtpView */ = {
 			isa = PBXGroup;
 			children = (
-				B0E7360021365CF000478B0E /* MKOtpView.swift */,
-				B0E7360121365CF000478B0E /* MKTextField.swift */,
+				B0E736052136634600478B0E /* MKOtpView.swift */,
+				B0E736042136634500478B0E /* MKTextField.swift */,
 				6FB688F89271AF4C1E7A905F7FE8BB87 /* Pod */,
 				C46BE2CFB0B1E4EE5B883D739BB90652 /* Support Files */,
 			);
@@ -321,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					2D764FCC4EA390CBDC31A354FC7E2C2E = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -363,8 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE2EFEEA214D03025CA000478E1DE96 /* MKOtpView-dummy.m in Sources */,
-				B0E7360321365CF000478B0E /* MKTextField.swift in Sources */,
-				B0E7360221365CF000478B0E /* MKOtpView.swift in Sources */,
+				B0E736062136634600478B0E /* MKTextField.swift in Sources */,
+				B0E736072136634600478B0E /* MKOtpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -680,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B39C3151773D3B4AAEA6D1950A8CFB91 /* MKOtpView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
